@@ -34,4 +34,10 @@ public class RomanNumeral {
         return convertedNumber;
 
     }
+
+    public static void main(String[] args){
+        RomanNumeral numeral = new RomanNumeral();
+        int result = numeral.convert("XIX");
+        System.out.println("result = " + result);
+    }
 }
